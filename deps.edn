@@ -30,5 +30,6 @@
                       manifold/manifold {:mvn/version "0.1.8"}}
          :main-opts ["-m" "cognitect.test-runner"]}
   :test-gen {:extra-paths ["test-gen"]
-             :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}}
+             :extra-deps {org.clojure/test.check {:mvn/version "1.1.0"}
+                          com.gfredericks/test.chuck {:mvn/version "0.2.13"}}
              :main-opts ["-m" "juxt.clip.gen-test"]}}}
